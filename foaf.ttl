@@ -1,0 +1,28 @@
+@base <> .
+
+@prefix ah: <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix social: <http://users.dcc.uchile.cl/~ahogan/social.ttl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix dbr: <http://dbpedia.org/resource/>.
+
+<> a foaf:Document ;
+   dc:date "2022-10-19"^^xsd:date ;
+   dc:title "Ulises's FOAF Profile"@en ;
+   foaf:primaryTopic <#uf> ;
+   dc:creator <#uf> .
+
+<#uf> a foaf:Person ;
+   rdfs:label "Ulises Faundez";
+   foaf:name "Ulises Faundez";
+   foaf:age 20;
+   foaf:myersBriggs "ISFP";
+   foaf:image <https://i.ibb.co/SP7K0wT/foto.png>;
+   foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah>;
+   foaf:interest dbr:Semantic_Web.
+
+   
