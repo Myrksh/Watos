@@ -1,4 +1,4 @@
-@base <> .
+@base <https://raw.githubusercontent.com/Myrkshorgh/Watos/main/foaf.ttl> .
 
 @prefix ah: <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -23,6 +23,6 @@
    foaf:myersBriggs "ISFP";
    foaf:image <https://i.ibb.co/SP7K0wT/foto.png>;
    foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah>;
-   foaf:interest dbr:Semantic_Web.
+   foaf:interest dbr:Semantic_Web, dbr:Database.
 
    
