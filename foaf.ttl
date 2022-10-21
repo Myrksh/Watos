@@ -25,7 +25,8 @@
    foaf:myersBriggs "ISFP";
    foaf:image <http://i.ibb.co/SP7K0wT/foto.png>;
    foaf:knows <http://users.dcc.uchile.cl/~ahogan/foaf.ttl#ah>, <http://anakena.dcc.uchile.cl/~malvarez/foaf.ttl>, <http://anakena.dcc.uchile.cl/~esdiaz/foaf.ttl>;
-   foaf:interest dbr:Semantic_Web, dbr:Database;
+   foaf:interest dbr:Semantic_Web, dbr:Database, dbr:Computer_Programming, dbr:Anime;
+   foaf:homepage <http://github.com/Myrkshorgh>;
    social:hasEnemy <http://users.dcc.uchile.cl/~ahogan/abot.ttl#ab>;
    social:hasSpiritualAnimal dbr:Falcon;
    social:hasFavouritePlatonicSolid dbr:Truncated_icosahedron;
